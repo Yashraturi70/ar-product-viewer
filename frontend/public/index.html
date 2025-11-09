@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR Product Viewer</title>
+
+    <!-- Google Model Viewer for AR/3D rendering -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Primary CSS file -->
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- React app entry point (Vite handles this automatically) -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
